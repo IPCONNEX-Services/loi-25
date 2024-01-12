@@ -5,12 +5,12 @@ with open('requirements.txt') as f:
 	install_requires = f.read().strip().split('\n')
 
 # get version from __version__ variable 
-from ipconnex_module_loi25 import __version__ as version
+from ipconnex_law_25 import __version__ as version
 
 setup(
-	name='ipconnex_module_loi25',
+	name='ipconnex_law_25',
 	version=version,
-	description='A frappe module adapted for law 25',
+	description='A frappe module for the law 25',
 	author='Frappe',
 	author_email='voip@ipconnex.com',
 	packages=find_packages(),
